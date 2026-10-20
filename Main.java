@@ -3,6 +3,8 @@ Main.java
 
 Functionality for testing Virtual Pet classes
 */
+
+
 public class Main {
     public static void main(String[] args) {
 		// Define starting pets
@@ -19,5 +21,8 @@ public class Main {
 
         dog.showStatus();
         cat.showStatus();   
+
+        dog.rollOver();
+        dog.shake();
     }
 }

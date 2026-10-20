@@ -21,4 +21,12 @@ public class Dog extends Pet {
 	public void fetch() {
 		System.out.println(getName() + " fetches a ball!");
 	}
+
+	public void rollOver() {
+		System.out.println(getName() + " does a barrel roll!");
+	}
+
+	public void shake() {
+		System.out.println(getName() + " shakes your hand!");
+	}
 }
